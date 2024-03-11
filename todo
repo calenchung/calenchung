@@ -1,0 +1,20 @@
+- We have to make the team page look differently. Purnendu looks squished to the corner. Should we add photos for people?
+
+Mobile:
+- ATLAS Header, rest is white for content. Maybe add X or CLOSE at the bottom
+
+
+
+-----------------------------------------------------------------
+Complete
+-----------------------------------------------------------------
+- The fading is super nice – but the single white tiles don't move and don't animate. To make it nice it should be different tiles that become white for each pages
+- Show hand icon when rolling over buttons and logo
+- Darken the background so the button always pops, it is sometimes hard to read
+- There are all kinds of error messages in the console
+- The content boxes don't seem to disappear: The link for the email is persistent even if not visible, and I can't select the mission statement
+
+
+Mobile:
+- Checkerboard background
+- Type centered in squares

@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title>Atlas NYC</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+    body{
+      margin:0;
+      padding:0;
+       overflow: hidden;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(18rem, 2fr));
+      grid-auto-rows: 2fr;
+    }
+
+    #grid::before {
+      content: '';
+      width: 0;
+      padding-bottom: 100%;
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+    #grid > *:first-child {
+      grid-row: 1 / 1;
+      grid-column: 1 / 1;
+    }
+
+    /* Just to make the grid visible */
+
+    #grid > * {
+      background: rgba(0,0,0,0.1);
+      background-position: 0px 0px;
+
+	    animation: animatedBackground 40s linear infinite;
+      /* background-image: url("assets/map_nyc.jpg"); */
+
+    }
+    @keyframes animatedBackground {
+	     from { background-position: 10% 100%; }
+	      to { background-position: 100% 10%; }
+      }
+      .logo {
+        position: absolute;
+        width: 35%;
+        top: 32%;
+        left: 34%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+   <img class="logo" src="assets/logo-gif.gif">
+  </body>
+  <script language="javascript" type="text/javascript" src="js/main.js"></script>
+
+
+</html>
